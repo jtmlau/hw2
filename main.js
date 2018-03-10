@@ -30,7 +30,7 @@ Circle.prototype.constructor = Circle;
 Circle.prototype.setIt = function () {
     this.it = true;
     this.color = 0;
-	if (this.radius < 50) {
+	if (this.radius < 75) {
 		this.radius += 5;
 	} else {
 		this.radius = 20;
